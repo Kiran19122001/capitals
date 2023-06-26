@@ -1,0 +1,43 @@
+.main-container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #93c5fd;
+}
+
+.card-container {
+    height: 300px;
+    width: 700px;
+    background-color: #f8fafc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 15px;
+    width: 150px;
+}
+
+.para {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    padding-left: 0px;
+}
+
+.inside-container {
+    display: flex;
+    flex-direction: column;
+}
